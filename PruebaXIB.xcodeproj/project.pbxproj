@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C346771B2B84F169000C6557 /* ViewControllerVista2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C346771A2B84F169000C6557 /* ViewControllerVista2.swift */; };
 		EA1FDF1F2B84978100A1F8FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1FDF1E2B84978100A1F8FC /* AppDelegate.swift */; };
 		EA1FDF212B84978100A1F8FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1FDF202B84978100A1F8FC /* SceneDelegate.swift */; };
 		EA1FDF232B84978100A1F8FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1FDF222B84978100A1F8FC /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C346771A2B84F169000C6557 /* ViewControllerVista2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerVista2.swift; sourceTree = "<group>"; };
 		EA1FDF1B2B84978100A1F8FC /* PruebaXIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaXIB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1FDF1E2B84978100A1F8FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA1FDF202B84978100A1F8FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				EA1FDF272B84978200A1F8FC /* Assets.xcassets */,
 				EA1FDF292B84978200A1F8FC /* LaunchScreen.storyboard */,
 				EA1FDF2C2B84978200A1F8FC /* Info.plist */,
+				C346771A2B84F169000C6557 /* ViewControllerVista2.swift */,
 			);
 			path = PruebaXIB;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				EA1FDF502B849E5900A1F8FC /* CustomView.swift in Sources */,
 				EA1FDF1F2B84978100A1F8FC /* AppDelegate.swift in Sources */,
 				EA1FDF212B84978100A1F8FC /* SceneDelegate.swift in Sources */,
+				C346771B2B84F169000C6557 /* ViewControllerVista2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
