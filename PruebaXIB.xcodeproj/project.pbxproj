@@ -16,6 +16,8 @@
 		EA1FDF362B84978200A1F8FC /* PruebaXIBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1FDF352B84978200A1F8FC /* PruebaXIBTests.swift */; };
 		EA1FDF402B84978200A1F8FC /* PruebaXIBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1FDF3F2B84978200A1F8FC /* PruebaXIBUITests.swift */; };
 		EA1FDF422B84978200A1F8FC /* PruebaXIBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1FDF412B84978200A1F8FC /* PruebaXIBUITestsLaunchTests.swift */; };
+		EA1FDF502B849E5900A1F8FC /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1FDF4F2B849E5900A1F8FC /* CustomView.swift */; };
+		EA1FDF522B849E7600A1F8FC /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA1FDF512B849E7600A1F8FC /* CustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EA1FDF3B2B84978200A1F8FC /* PruebaXIBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaXIBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1FDF3F2B84978200A1F8FC /* PruebaXIBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaXIBUITests.swift; sourceTree = "<group>"; };
 		EA1FDF412B84978200A1F8FC /* PruebaXIBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaXIBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA1FDF4F2B849E5900A1F8FC /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		EA1FDF512B849E7600A1F8FC /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				EA1FDF202B84978100A1F8FC /* SceneDelegate.swift */,
 				EA1FDF222B84978100A1F8FC /* ViewController.swift */,
 				EA1FDF242B84978100A1F8FC /* Main.storyboard */,
+				EA1FDF4E2B849E2D00A1F8FC /* XIBs */,
 				EA1FDF272B84978200A1F8FC /* Assets.xcassets */,
 				EA1FDF292B84978200A1F8FC /* LaunchScreen.storyboard */,
 				EA1FDF2C2B84978200A1F8FC /* Info.plist */,
@@ -125,6 +130,15 @@
 				EA1FDF412B84978200A1F8FC /* PruebaXIBUITestsLaunchTests.swift */,
 			);
 			path = PruebaXIBUITests;
+			sourceTree = "<group>";
+		};
+		EA1FDF4E2B849E2D00A1F8FC /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				EA1FDF4F2B849E5900A1F8FC /* CustomView.swift */,
+				EA1FDF512B849E7600A1F8FC /* CustomView.xib */,
+			);
+			path = XIBs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA1FDF2B2B84978200A1F8FC /* LaunchScreen.storyboard in Resources */,
+				EA1FDF522B849E7600A1F8FC /* CustomView.xib in Resources */,
 				EA1FDF282B84978200A1F8FC /* Assets.xcassets in Resources */,
 				EA1FDF262B84978100A1F8FC /* Main.storyboard in Resources */,
 			);
@@ -259,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA1FDF232B84978100A1F8FC /* ViewController.swift in Sources */,
+				EA1FDF502B849E5900A1F8FC /* CustomView.swift in Sources */,
 				EA1FDF1F2B84978100A1F8FC /* AppDelegate.swift in Sources */,
 				EA1FDF212B84978100A1F8FC /* SceneDelegate.swift in Sources */,
 			);
