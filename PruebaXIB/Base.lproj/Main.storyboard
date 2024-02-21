@@ -17,7 +17,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FQS-mS-kKg" customClass="CustomView" customModule="PruebaXIB" customModuleProvider="target">
-                                <rect key="frame" x="0.5" y="297.5" width="374" height="72"/>
+
+                                <rect key="frame" x="0.0" y="253" width="375" height="161"/>
+
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0z-hX-6Qs">
@@ -33,10 +35,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="FQS-mS-kKg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0qG-ze-xgq"/>
-                            <constraint firstItem="FQS-mS-kKg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6zL-t5-WCW"/>
-                            <constraint firstItem="FQS-mS-kKg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="233.5" id="Ezq-r3-uAb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FQS-mS-kKg" secondAttribute="trailing" constant="0.37383177544211321" id="uVY-af-zZ9"/>
+                            <constraint firstItem="FQS-mS-kKg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="233" id="0D6-oo-ibJ"/>
+                            <constraint firstItem="FQS-mS-kKg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4ZA-vj-Dlf"/>
+                            <constraint firstItem="FQS-mS-kKg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GYp-WE-UkN"/>
+                            <constraint firstItem="FQS-mS-kKg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oWF-02-PaC"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="b24-PV-NTC"/>

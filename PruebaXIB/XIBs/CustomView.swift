@@ -9,6 +9,9 @@ import UIKit
 
 class CustomView: UIView {
 
+    @IBOutlet weak var slider: UISlider!
+    @IBOutlet weak var label: UILabel!
+    
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         setup()
@@ -21,5 +24,14 @@ class CustomView: UIView {
         }
         addSubview(customView)
     }
+    
+    
+    @IBAction func sliderValueChanged(_ sender: Any) {
+        
+        label.text = "\(Int(slider.value))"
+        
+    }
+    
+    
     
 }
