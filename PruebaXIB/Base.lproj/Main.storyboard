@@ -17,9 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FQS-mS-kKg" customClass="CustomView" customModule="PruebaXIB" customModuleProvider="target">
-
-                                <rect key="frame" x="0.0" y="253" width="375" height="161"/>
-
+                                <rect key="frame" x="0.0" y="297" width="375" height="73"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0z-hX-6Qs">
